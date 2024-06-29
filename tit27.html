@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>scramble Word</title>
+    <link rel="stylesheet" href="tit27.css">
+</head>
+<body>
+    <div id="image">
+        <img class="img" src="index/images/ok.jpg">
+    </div>
+    <div class="container">
+        <h2>Word Scramble</h2>
+        <div class="main">
+            <p id="elements"></p>
+            <p class="clue">Hint: <span id="hint"></span></p>
+            <p id="time">Time Left : <b id="times">30</b>s</p>
+            <input class="input" type="text" placeholder="Enter a valid word">
+        </div>
+        <div class="buttons">
+            <button id="refresh" onclick="refresh()">Refresh Word</button>
+            <button id="check" onclick="checkword()">Check Word</button>
+        </div>
+        
+    </div>
+
+    <script src="tit27.js"></script>
+</body>
+</html>
